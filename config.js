@@ -53,16 +53,16 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
-global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923444844060,923xxxxxxxx";
+global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.save_status = process.env.AUTO_SAVE_STATUS || "true"
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "212778758648,923xxxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "212778758648,923xxxxxxxx";
 
 global.api_smd = "https://api-smd.onrender.com/" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://suhail-md-vtsf.onrender.com";
 
 
-global.SESSION_ID = process.env.SESSION_ID  || ""  // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID  || "CfkIkgICAgIOOFpOODoOeCjuS4i1wiXG4gIH0sXG4gIFwic2lnbmFsSWRlbnRpdGllc1wiOiBbXG4gICAge1xuICAgICAgXCJpZGVudGlmaWVyXCI6IHtcbiAgICAgICAgXCJuYW1lXCI6IFwiMjEyNzc4NzU4NjQ4OjI2QHMud2hhdHNhcHAubmV0XCIsXG4gICAgICAgIFwiZGV2aWNlSWRcIjogMFxuICAgICAgfSxcbiAgICAgIFwiaWRlbnRpZmllcktleVwiOiB7XG4gICAgICAgIFwidHlwZVwiOiBcIkJ1ZmZlclwiLFxuICAgICAgICBcImRhdGFcIjogW1xuICAgICAgICAgIDUsXG4gICAgICAgICAgMjQ5LFxuICAgICAgICAgIDIzNixcbiAgICAgICAgICA1MCxcbiAgICAgICAgICAyNDMsXG4gICAgICAgICAgMTA1LFxuICAgICAgICAgIDY1LFxuICAgICAgICAgIDUyLFxuICAgICAgICAgIDkzLFxuICAgICAgICAgIDE5NCxcbiAgICAgICAgICAxMDYsXG4gICAgICAgICAgNjcsXG4gICAgICAgICAgMTk2LFxuICAgICAgICAgIDI0NSxcbiAgICAgICAgICAxMjEsXG4gICAgICAgICAgMTY4LFxuICAgICAgICAgIDEwLFxuICAgICAgICAgIDEyNCxcbiAgICAgICAgICAyMTUsXG4gICAgICAgICAgMTE4LFxuICAgICAgICAgIDY0LFxuICAgICAgICAgIDIyNixcbiAgICAgICAgICAxOTYsXG4gICAgICAgICAgMTgxLFxuICAgICAgICAgIDAsXG4gICAgICAgICAgMTQsXG4gICAgICAgICAgMjUzLFxuICAgICAgICAgIDE3NCxcbiAgICAgICAgICAyMzEsXG4gICAgICAgICAgODYsXG4gICAgICAgICAgMjIyLFxuICAgICAgICAgIDg2LFxuICAgICAgICAgIDEwNlxuICAgICAgICBdXG4gICAgICB9XG4gICAgfVxuICBdLFxuICBcInBsYXRmb3JtXCI6IFwiYW5kcm9pZFwiLFxuICBcImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcFwiOiAxNzMwNjcwODQ2LFxuICBcIm15QXBwU3RhdGVLZXlJZFwiOiBcIkFBQUFBRWZmXCJcbn0iLAogICJhcHAtc3RhdGUtc3luYy1rZXktQUFBQUFFZmQuanNvbiI6ICJ7XCJrZXlEYXRhXCI6XCIzUVZJMFlqU0R6cnVXWHY1bVkrZzNsblpqVkQ0NmIwaG1Gb1JvTnR3T1lrPVwiLFwiZmluZ2VycHJpbnRcIjp7XCJyYXdJZFwiOjE1OTQ2NjAwMjMsXCJjdXJyZW50SW5kZXhcIjoxLFwiZGV2aWNlSW5kZXhlc1wiOlswLDFdfSxcInRpbWVzdGFtcFwiOlwiMFwifSIsCiAgImFwcC1zdGF0ZS1zeW5jLWtleS1BQUFBQUVmZS5qc29uIjogIntcImtleURhdGFcIjpcIjBYZVBtN1VNSThhWHhBUVFLNk00bGtIMVpSZU5hMDJ0MGNYRzJkVW5JZkU9XCIsXCJmaW5nZXJwcmludFwiOntcInJhd0lkXCI6MTU5NDY2MDAyMyxcImN1cnJlbnRJbmRleFwiOjEsXCJkZXZpY2VJbmRleGVzXCI6WzBdfSxcInRpbWVzdGFtcFwiOlwiMTczMDY0Mjc1NzMzNVwifSIsCiAgImFwcC1zdGF0ZS1zeW5jLWtleS1BQUFBQUVmZi5qc29uIjogIntcImtleURhdGFcIjpcIlh5Y3ErNmIyQWpORlk4UXJuUGcyTy8rR3hOS05mUDNOem1ZZ1NFR3JkTVk9XCIsXCJmaW5nZXJwcmludFwiOntcInJhd0lkXCI6MTU5NDY2MDAyNCxcImN1cnJlbnRJbmRleFwiOjEsXCJkZXZpY2VJbmRleGVzXCI6WzAsMV19LFwidGltZXN0YW1wXCI6XCIxNzMwNjcwODQ3NTE2XCJ9Igp9"  // PUT your SESSION_ID 
 
 
 module.exports = {
@@ -76,8 +76,8 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-XMD",
-  ownername:process.env.OWNER_NAME|| "Suhail-X",
+  botname : process.env.BOT_NAME  || "#Ｙａｋｕｚａ ㅤ🇩🇪  / 🐉",
+  ownername:process.env.OWNER_NAME|| "#Ｙａｋｕｚａ ㅤ🇩🇪  / 🐉",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -91,7 +91,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
   LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
 
 
